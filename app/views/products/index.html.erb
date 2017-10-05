@@ -32,6 +32,10 @@
 
 <%= link_to 'New Product', new_product_path %>
 
+<h3>Unique Product Count: <%=@unique_product_count%></h3>
+<h3>Average Product Price: <%=@products_average_price%> </h3>
+<h3>Total Product Stock: <%=@products_total_stock%></h3>
+
 <%100.times do%>
 <h2>Chunky Bacon</h2>
 <%end%>
